@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/cozatl/Typescript-exercises/issues"
   },
-  "homepage": "https://github.com/cozatl/Typescript-exercises#readme"
+  "homepage": "https://github.com/cozatl/Typescript-exercises#readme",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
 }
