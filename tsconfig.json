@@ -2,16 +2,19 @@
   // Visit https://aka.ms/tsconfig to read more about this file
   "compilerOptions": {
     // File Layout
-    // "rootDir": "./src",
+    "rootDir": "./",
     // "outDir": "./dist",
-
+    
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
-    "module": "nodenext",
-    "target": "esnext",
+    // "module": "nodenext",
+    "module": "commonjs",
+    // "target": "esnext",
+    "target": "es2017",
     "types": [],
     // For nodejs:
     // "lib": ["esnext"],
+    "lib": ["ES2017","DOM"],
     // "types": ["node"],
     // and npm install -D @types/node
 
@@ -40,5 +43,6 @@
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
     "skipLibCheck": true,
-  }
+  },
+  "include": ["js/**/*"]
 }

@@ -13,12 +13,15 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/cozatl/Typescript-exercises/issues"
   },
   "homepage": "https://github.com/cozatl/Typescript-exercises#readme",
   "devDependencies": {
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "date-fns": "^4.1.0"
   }
 }
